@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="shop" content="Coffee Shop">
+        <meta name="description" content="A newly opened mesmerizing coffee shop for all the cafeine lovers">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Caffeine Cravings</title>
+        <link rel="icon" href="img/coffeecup.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <script src="javascript/main.js" defer></script>
+        
+    </head>
+    <body>
+        <header class="header">
+        <h1 class="header_h1">Caffeine Cravings</h1>
+        <nav aria-label="primary-navigation" class="header__nav"> 
+            <ul class="header__ul">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="hours.html">Hours</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2 class="hero__h2">Welcome!!</h2>
+        <figure>
+        <img src="img/introimg.jpeg" alt="coffee logo" title="Coffee" width="1131" height="750" loading="lazy">
+            <figcaption class="offscreen">
+                Two Cup of Coffee
+            </figcaption>
+        </figure>
+    </section>
+    <main class="main">
+        
+        <hr>
+            <article id="menu" class="main_article menu">
+            <h2 class="menu__h2">Our Menu</h2>
+            <p>
+                <table class="menu__container">
+                    <thead>
+                        <tr>
+                            <th class="menu__header" scope="col">Hot/Cold</th>
+                            <th class="menu__header" scope="col">Items</th>
+                            <th class="menu__header" scope="col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th class="menu__items menu__hot" scope="row" rowspan="5">Hot Beverages</th>
+                        <td class="menu__items">Espresso</td>
+                        <td class="menu__items">Rs 250</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__items">Cappucino</td>
+                        <td class="menu__items">Rs 280</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__items">Latte</td>
+                        <td class="menu__items">Rs 300</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__items">Mocha</td>
+                        <td class="menu__items">Rs 320</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__items">Machiatto</td>
+                        <td class="menu__items">Rs 380</td>
+                    </tr>
+                    <tr>
+                        <th class="menu__items  menu__cold" scope="row" rowspan="5">Cold Beverages</th>
+                        <td class="menu__items">Iced Espresso</td>
+                        <td class="menu__items">Rs 300</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__items">Iced Coffee</td>
+                        <td class="menu__items">Rs 300</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__items">Frappucino</td>
+                        <td class="menu__items">Rs 350</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__items">Cold Brew</td>
+                        <td class="menu__items">Rs 360</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__items">Iced Machiatto</td>
+                        <td class="menu__items">Rs 390</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="menu__items menu__cs" colspan="3">You can add ice-cream/sprinkles of your choice</td>
+                    </tr>
+                </tfoot>
+
+                </table>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>
+            <span class="footer"> Copyright &copy; <time id="year"></time>
+
+            </span>
+            <span>Caffeine Cravings</span>  
+        </p>
+    </footer>
+    </body>
+</html>
